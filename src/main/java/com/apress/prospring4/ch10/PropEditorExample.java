@@ -10,10 +10,9 @@ public class PropEditorExample {
     private static final Logger LOGGER = Logger.getLogger(PropEditorExample.class);
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("prop-editor-app-context.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("conv-service-app-context.xml");
 
-        LOGGER.info(context.getBean("natalia", Contact.class));
+        LOGGER.info(context.getBean("man", Contact.class));
 
-        LOGGER.info(context.getBean("timur",Contact.class));
     }
 }

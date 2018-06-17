@@ -23,7 +23,7 @@
        <bean id="natalia" class="com.apress.prospring4.ch10.components.Contact"
              p:firstName="Natalia"
              p:lastName="Stukova"
-             p:birthDate="1994-09-13"
+             p:birthDate="1983-09-11"
              p:personalSite="https://vk.com/pshshshshsh"/>
 
        <bean id="timur" class="com.apress.prospring4.ch10.components.Contact"
