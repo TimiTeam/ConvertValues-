@@ -26,7 +26,7 @@ public class JSR349Sample {
 
         validateCustomer(customer,service);
 
-        customer.setCustomerType(CustomerType.CORPORATE);
+        customer.setCustomerType(CustomerType.INDIVIDUAL);
 
         customer.setFirstName("Jack");
 

@@ -1,9 +1,13 @@
 package com.apress.prospring4.ch10.components;
 
 
+import com.apress.prospring4.ch10.service.jsrSample.CheckIndividualValidator;
+
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+@CheckIndividualValidator
+//To enable validation
 public class Customer {
 
     @NotNull
