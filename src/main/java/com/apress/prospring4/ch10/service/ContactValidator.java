@@ -16,7 +16,7 @@ public class ContactValidator implements Validator{
     }
 
 
-//    Performs a validation for the object transferred to it.
+    //    Performs a validation for the object transferred to it.
 // The result will be stored in the instance of the implementation of the interface org.springfrarnework.validation.Errors.
     public void validate(Object o, Errors errors) {
         ValidationUtils.rejectIfEmpty(errors,"firstName","firstName.empty! Hello, im errors");
